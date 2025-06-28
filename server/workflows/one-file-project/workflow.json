@@ -1,0 +1,22 @@
+{
+    "workflow_name": "One-file project",
+    "workflow_systemname":"default_code_oneliner",
+    "stages":[
+        {
+            "stage_name":"Create a main.rs project using actix-web",
+            "tasks":[
+                {
+                    "script_name":"get_name",
+                    "name":"Get name of the project",
+                    "status":"InProgress"
+                },
+                {
+                    "script_name":"get_description",
+                    "name":"Get description of the project",
+                    "status":"InProgress"
+                }
+            ],
+            "script": "one-file-project/main.py"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+Create a one file project, where every function is contained in main.rs file.

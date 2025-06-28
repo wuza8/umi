@@ -1,0 +1,22 @@
+{
+    "workflow_name": "Image finder",
+    "workflow_systemname":"image_finder",
+    "stages":[
+        {
+            "stage_name":"Finds images to the script",
+            "tasks":[
+                {
+                    "script_name":"get_name",
+                    "name":"Get name of the project",
+                    "status":"InProgress"
+                },
+                {
+                    "script_name":"get_description",
+                    "name":"Get description of the project",
+                    "status":"InProgress"
+                }
+            ],
+            "script": "images_finder/main.py"
+        }
+    ]
+}

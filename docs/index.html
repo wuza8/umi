@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umi - prompt scripting user interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div id="header">
+            <div id="left"><img src="Umilogo.png" alt="UmiChan Logo" width="300" class="logo"></div>
+            <div id="right">
+                <div class="umi-center">Umi <span id="alpha-text">Alpha</span></div>
+                <div class="umi-second">open-source LLM user interface with prompt scripting</div>
+            </div>
+        </div>
+        <div id="content" style="font-size:15px">
+        <div class="content-left">
+            Umi is a fully open-source LLM user interface, designed to unleash the power of prompt engineering with existing tools integration.
+            <h2>Main project goals</h2>
+            <ul>
+                <li>Integration of tools eg. terminal, web browser</li>
+                <li>Implementation of the newest prompt engineering solutions</li>
+                <li>Specialized user interface for specific tasks</li>
+                <li>Easy to use, deploy and configure</li>
+            </ul>
+            <h2>State of the development</h2>
+            <p>Application is in <span style="color: red">prototyping state</span> and has no installer. The concepts of how to exactly combine LLMs with external tools, use memory or command the prompts is in question. The prototype version offers couple of prompt plugins and simple chatbot usage of LLMs using ChatGPT servers.</p>
+        </div>
+        <div class="content-right">
+            <img src="umiscreen.png" width="600" class="screenshot">
+        </div>
+        <div style="margin-top:0px; float:left">
+            <!-- <div class="download-button">
+                <div class="download-button-icon">
+                    <img src="windows-fill.svg" width="30" height="30" style="color: white;"></svg>
+                </div>
+                <div class="download-button-text-small">Download for Windows</div>
+            </div>
+            <div class="download-button" style="background-color: #616161;">
+                <div class="download-button-icon" >
+                    <img src="linux-svgrepo-com.svg" width="30" height="30" style="margin-top:1px;"></svg>
+                </div>
+                <div class="download-button-text-small">Download for Linux</div>
+            </div> -->
+            <div class="download-button" style="background-color: #272727;">
+                <div class="download-button-icon" >
+                    <img src="github-142-svgrepo-com.svg" width="30" height="30" style="margin-top:1px;"></svg>
+                </div>
+                <div class="download-button-text-small">See the source-code</div>
+            </div>
+            <!-- <div class="download-button" style="background-color: #a35b5b;">
+                <div class="download-button-icon" >
+                    <img src="patronite.png" width="24" height="30" style="margin-top:1px;"></svg>
+                </div>
+                <div class="download-button-text-small">Donate the author</div>
+            </div> -->
+        </div>
+    </div>
+    </div>
+    <div id="next-content">
+        <div class="content2">
+            <h1>More about the project</h1>
+            <p>Large language models get better and better over time. With the progress in model accuracy, rises more and more practical usages, but at the same time, the complexity of implementing such systems prevents fast growth in AI. To combat this, we need a new framework that makes standard procedures we do with AI like generating files, decision making etc. much easier. Like with the prompt engineering methods rising, the number of statistical methods that work on low-level information also rises, but there's no platform that would implement those algorithms in some higher abstraction. We're still on the beginning of the process of understanding the new AI, the one that can generate meaningful responses. There are no beaten paths when it comes to solving many problems that have an root in connecting the classical programming with LLM. One of the keypoints of the project is to find more solutions to those problems, by creating a programming environment for exploring those issues.</p>
+            <h1>Main concept</h1>
+            <p>Application uses python scripts to implement tool usage and more sophisticated techniques of controlling the model. By solving more and more practical problems author believes that it will be possible to create an self-defined API for working with models.</p>
+        </div>
+       
+           
+    </div>
+    <div id="footer">
+        <div class="content2">
+            <p>Umi is a free and open-source project, licensed under the GNU General Public License v3.0.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "workflow_name": "Create a project brief",
+    "workflow_systemname":"default_document_brief",
+    "stages":[
+        {
+            "stage_name":"Create a brief document",
+            "tasks":[
+                {
+                    "script_name":"get_name",
+                    "name":"Get name of the project",
+                    "status":"InProgress"
+                },
+                {
+                    "script_name":"get_description",
+                    "name":"Get description of the project",
+                    "status":"InProgress"
+                }
+            ],
+            "script": "brief/main.py"
+        }
+    ]
+}

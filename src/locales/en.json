@@ -1,0 +1,18 @@
+{
+    "window_frame":{
+        "file": "File",
+        "edit": "Edit",
+        "view": "View",
+        "no_project_opened": "No project is opened. Open a project to start edit the software."
+    },
+    "start_page":{
+        "welcome": "Welcome on the projects page!",
+        "description": "To start editing, connect to the server and then open existing or create a new project.",
+        "latest":"Latest",
+        "connections": "Connections",
+        "local_instance_button": "Local instance"
+    }
+}
+    
+    
+  

@@ -1,0 +1,13 @@
+.editor-file-button{
+    width: calc(100% - 20px);
+    height: 25px;
+    background-color: #292828;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.editor-file-button:hover{
+    cursor:pointer;
+    background-color: #393838;
+}
+

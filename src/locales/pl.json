@@ -1,0 +1,13 @@
+{
+  "window_frame":{
+    "file": "Plik",
+    "edit": "Edycja",
+    "view": "Widok",
+    "no_project_opened": "Nie otwarto żadnego projektu. Otwórz lub stwórz nowy projekt."
+  },
+  "start_page":{
+    "welcome": "Witaj na plaży projektów!",
+    "description": "Aby rozpocząć pracę w programie, stwórz nowy projekt lub otwórz istniejący."
+  }
+}
+  
